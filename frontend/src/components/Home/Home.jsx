@@ -8,14 +8,6 @@ const Home = () => {
   return (
     <>
       <div className="home-container">
-        <a
-          className="github-btn"
-          href="https://github.com/VishalBhat07/CPU-scheduling-visualizer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
         <h1 className="title">CPU Scheduling Visualizer</h1>
         <div className="algorithm-btn">
           <button onClick={() => navigate("/FCFS")}>
